@@ -16,7 +16,7 @@ body {
 }
 
 section {
-  width: 50vw;
+  width: 80vw;
 }
 
 .container {
@@ -42,6 +42,7 @@ input {
   outline: none;
   padding: 5px;
   border: 1px solid #333;
+  color: #fff;
 }
 
 p {
@@ -73,4 +74,10 @@ a {
   text-decoration: none;
   color: #fff;
   font-size: 0.8rem;
+}
+
+@media (min-width: 960px) {
+  section {
+    width: 60vw;
+  }
 }
